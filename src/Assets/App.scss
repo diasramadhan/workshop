@@ -1,0 +1,46 @@
+.container {
+  .navbar {
+      width: 100%;
+      background: url('./LOGO_UNP\ KOTAK.jpg');
+    background-color: blue;
+    text-align: center;
+    height: 20rem;
+  }
+
+  .selection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    .Card {
+      background-color: brown;
+      margin: 1rem;
+      width: 50px;
+      height: 50px;
+    }
+    .Section-body-1 {
+      background-color: blue;
+      width: 50px;
+      height: 50px;
+    }
+    .Section-body-3 {
+      background-color: red;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    .Body-Anak {
+      background-color: blue;
+      margin: 1rem;
+      width: 100px;
+      height: 150px;
+        .Body-2-anak{
+            
+        }
+    }
+  }
+}
